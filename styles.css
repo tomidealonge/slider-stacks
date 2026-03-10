@@ -1,8 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+
 * {
     background: black;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Inter", sans-serif;
 }
 
 .container {
@@ -45,5 +49,15 @@
 .slide h2 {
     color: white;
     position: relative;
+    background-color: transparent;
+    font-size: 4rem;
+    font-weight: 400;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.slide h2 div {
     background-color: transparent;
 }
